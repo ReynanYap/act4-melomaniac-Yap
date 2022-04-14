@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.scroll{
+    scroll-behavior:smooth;
+    scroll-snap-type: mandatory;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-snap-align: center;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 290px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 7px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 21.1px;
+}
+.title{
+    position: absolute;
+    top: 25%;
+    margin-left: 63%;
+    outline-style: double;
+    outline-width: 10px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    padding-right: 5%;
+}
+.title h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-top: 20%;  
+    text-align: center; 
+}
+.title p{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.welcome{
+    float: right;
+    margin-right: 57.4%;
+    margin-top: 4%;
+}
+.welcome h2{
+    font-size: 90px;
+    color:rgba(245, 247, 247, 0.815);
+    line-height: 120px;
+    text-align: center;
+}
+.welcome h2 p{
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 350%;
+    color: aliceblue;  
+}
+
+.l{
+    width: 5%;
+    margin-top: 4.5%;
+    margin-left: 47.5%;
+}
+.bk{
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/image1.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    scroll-behavior:smooth;
+    scroll-snap-type: mandatory;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-snap-align: center;
+}
+.ly{
+    margin-top: 3%;
+    float: 50%;
+    text-align: center;
+}
+.ly h1{
+    
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.ly a{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.ly p{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 114%;
+}
+.w{
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/w3.gif);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.s p{
+    float: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cy p{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(75, 72, 72);
+    color: lightgray;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
